@@ -162,8 +162,8 @@ function createPaginationButtons(totalPages) {
     });
 
     paginationContainer.appendChild(button);
-  }
-}
+  };
+};
 
 function selectImage(card, id) {
   const cardImages = document.querySelectorAll(".card-image");
@@ -184,7 +184,7 @@ function selectImage(card, id) {
   const btnVote = document.querySelector(".btn-vote");
   btnVote.classList.add("enabled");
   btnVote.disabled = false;
-}
+};
 
 const totalPages = Math.ceil(imageData.length / pageSize);
 renderImages(0, pageSize);

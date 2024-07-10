@@ -131,7 +131,7 @@ section.container-pagination {
 }
 
 .btn-pagination:hover {
-  background-color: var(--bg-color-btn-pagination-hover);
+  border: 2px solid #0019FF;
 }
 
 .btn-pagination span {
