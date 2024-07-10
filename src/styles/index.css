@@ -88,9 +88,9 @@ section h1 {
   height: 100%
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
-  opacity: 0; /* Initial opacity for overlay */
-  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: all 0.3s ease;
 }
 
 .card-image:hover::after {
