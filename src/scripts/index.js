@@ -209,16 +209,23 @@ function selectVotingImage() {
     const targetUrl = `./src/pages/result-voting.html?selectedImage=${selectedImageId}`;
     window.location.href = targetUrl;
 
-    // const imageVoted = document.querySelector(".image-voted");
-    // const imageCardVoted = imageVoted.querySelector(".card-image");
-    // const ImgElementVoted = imageCardVoted.querySelector("img");
-    // const selectedImageData = imageData.find(image => image.id === selectedImageId);
-
-    // if (selectedImageData) {
-    //   ImgElementVoted.id = selectedImageData.id;
-    //   ImgElementVoted.src = selectedImageData.src;
-    //   ImgElementVoted.alt = selectedImageData.alt;
+    // const imageVotedContainer = document.querySelector('.container-image');
+    // const imageId = sessionStorage.getItem('selectedImage');
+    // if (!imageId) {
+    //   return;
     // }
+
+    // const imageUrl = `./src/assets/image-select-${selectedImageId}.webp`;
+    // const imgElement = document.createElement('img');
+    // const getImageVoted = imageData.find(image => image.id === selectedImageId);
+    // if (getImageVoted) {
+    //   imgElement.id = getImageVoted.id;
+    //   imgElement.src = imageUrl;
+    //   imgElement.alt = getImageVoted.alt;
+    // };
+
+    // imageVotedContainer.innerHTML = '';
+    // imageVotedContainer.appendChild(imgElement);
   });
 };
 
